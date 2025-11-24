@@ -53,6 +53,8 @@ p {
   overflow: hidden;
   max-width: 40rem;
   margin: auto;
+  display:flex;
+  flex-direction: column;
 
 }
 
