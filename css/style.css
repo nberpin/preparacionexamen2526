@@ -1,0 +1,149 @@
+/*  Hecho por: Jonathan Betancor */
+
+
+/*Principal*/
+:root {
+  --blanco: hsl(0, 0%, 100%);
+  --cyan: hsl(179, 62%, 40%);
+  --cyanClaro: hsl(179, 62%, 45%);
+  --amarillo: hsl(71, 73%, 54%);
+  --amarilloOscuro: hsl(71, 73%, 48%);
+  --gris: hsl(204, 43%, 93%);
+  --grisOscuro: hsl(218, 22%, 67%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  line-height: 1.3;
+  background-color: var(--gris);
+  color: var(--grisOscuro);
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {  
+  font-weight: bold;
+  margin-top: 0;
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+.contenido {
+  border-radius: 1rem;
+  overflow: hidden;
+  max-width: 40rem;
+  margin: auto;
+
+}
+
+
+
+
+/* div comunidad */
+.comunidad {
+  background-color: var(--blanco);
+  padding: 2rem;  
+}
+
+.comunidad h2 {
+  color: var(--cyan);
+}
+
+.comunidad .subtitulo {    
+  font-size: 1rem;
+  color: var(--amarillo);
+  font-weight: bold;  
+  margin-bottom: 1rem;
+}
+
+.comunidad p {
+  font-size: 1rem;  
+  line-height: 1.75;
+  margin-bottom: 0;
+}
+
+
+
+/* div suscripcion */
+.suscripcion, .motivos {
+  color: var(--gris);
+}
+
+.suscripcion {
+  background-color: var(--cyan); 
+  padding: 2rem; 
+}
+
+.precio {  
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.precio span {
+  font-size: 1rem;
+  margin-left: 1rem;
+  font-weight: normal;
+  opacity: 0.75;
+}
+
+.suscripcion p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.suscripcion a {
+  display: block;
+  background-color: var(--amarillo);
+  color: var(--blanco);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  box-shadow: 0 1rem 1rem rgba(0,0,0,0.15); 
+
+}
+
+.suscripcion a:hover {
+  background-color: var(--amarilloOscuro);  
+}
+
+
+
+/* div motivos */
+.motivos {
+  background-color: var(--cyanClaro);
+   padding: 2rem;
+}
+
+.motivos ul {
+  margin-top: 0;
+  padding: 0;
+}
+
+.motivos ul li {
+  list-style-type: none;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
